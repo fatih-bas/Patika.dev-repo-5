@@ -1,0 +1,96 @@
+/* Başlık */
+body {
+  font-family:'Oxygen', sans-serif;
+}
+header {
+  background-image: url("/img/pattern.jpeg");
+  background-size: cover;
+  height: 250px;
+  margin: auto;
+ 
+}
+.header {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(245, 235, 160);
+  margin-top: 0;
+  
+}
+
+/* Menu links */
+ul {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+ 
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* product */
+.product-header {
+  background-color: skyblue;
+  
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  
+  font-weight: bold;
+  color: blue;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+article {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* footer */
+.footer {
+  background-color: skyblue;
+  text-align: center;
+  padding-bottom: 95px;
+}
+address {
+  padding-top: 20px;
+}
+div {
+  font-size: 12px;
+}
+
+/* Hakkımızda sayfası */
+
+.about-us {
+  font-size: 16px;
+}
+#house-img {
+  width: 600px;
+  height: 480px;
+}
+
+/* iletişim formu */
+
+input {
+  margin-bottom: 10px;
+  padding-bottom: 10px; 
+}
+button {
+  margin-top: 10px;
+}
