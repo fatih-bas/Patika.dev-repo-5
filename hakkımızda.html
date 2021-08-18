@@ -4,51 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <title>Arts & Crafts</title>
 </head>
 <body>
     <!-- Başlık -->
     <header>
-        <p class="header">Arts & Crafts</p> 
+     
        </header>
-      <nav>
-          <ul>
-              <li><a href="index.html">Ana sayfa</a></li>
-              <li><a href="urunler.html">Ürünlerimiz</a></li>
-              <li><a href="hakkımızda.html">Hakkımızda</a></li>
-              <li><a href="iletisim.html">İletişim</a></li>
-          </ul>
+       <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Arts & Crafts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Ana sayfa <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="urunler.html">Ürünlerimiz</a>
+            <a class="nav-link active" href="hakkımızda.html">Hakkımızda</a>
+            <a class="nav-link" href="iletisim.html" tabindex="-1">İletişim</a>
+          </div>
+        </div>
       </nav>
 
-  <main>
+  <main class="container mt-5 pt-5">
    
-    <div class="about-us">
+    <!-- <div class="jumbotron">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio sunt error voluptate debitis dolorum sed voluptas, hic corporis doloremque nobis sit. Sapiente iure itaque aspernatur magnam rem a unde doloribus.
         <h2>Vizyonumuz</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt magnam rem suscipit omnis accusantium natus dolore, molestiae vel quos fugiat eius fugit quia veniam dolores. Qui ipsa rerum accusamus maxime culpa dicta quis quam, sint magni laudantium, dolorem hic totam at iure molestiae suscipit fugit nesciunt assumenda illo nostrum repellendus optio consequatur doloremque velit! .</p>
         <h2>Misyonumuz</h2>
         <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum eveniet expedita placeat suscipit dolorem vel. Repellat cupiditate eius optio aut dignissimos voluptates similique adipisci tempora! Atque excepturi magnam amet necessitatibus adipisci. Molestias impedit quaerat itaque aliquam quia dolore minus, velit unde adipisci dolores doloremque modi vitae rem quae architecto laudantium ex? Facere asperiores est cumque sequi? Error quo, repellat incidunt corrupti repellendus ab perferendis, earum, nam voluptates dolore velit!
         </p>
-        <img îd="house-img" src="/img/The-arts-Craft-house.jpg" alt="The-arts-Craft-house">
+       
     </div>
+ -->
+<!--  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="/img/The-arts-Craft-house.jpg" alt="The-arts-Craft-house">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div> -->
 
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Vizyonumuz</h5>
+    <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt magnam rem suscipit omnis accusantium natus dolore, molestiae vel quos fugiat eius fugit quia veniam dolores. Qui ipsa rerum accusamus maxime culpa dicta quis quam, sint magni laudantium, dolorem hic totam at iure molestiae suscipit fugit nesciunt assumenda illo nostrum repellendus optio consequatur doloremque velit!
+      <h5>Misyonumuz</h5>
+      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum eveniet expedita placeat suscipit dolorem vel. Repellat cupiditate eius optio aut dignissimos voluptates similique adipisci tempora! Atque excepturi magnam amet necessitatibus adipisci. Molestias impedit quaerat itaque aliquam quia dolore minus, velit unde adipisci dolores doloremque modi vitae rem quae architecto laudantium ex? Facere asperiores est cumque sequi? Error quo, repellat incidunt corrupti repellendus ab perferendis, earum, nam voluptates dolore velit!</p>
+      <p class="card-text text-center mt-3"><small class="text-muted">Arts & Crafts</small></p>
+      <img src="/img/The-arts-Craft-house.jpg" class="card-img-top" alt="he-arts-Craft-house">
+      
+   
+  </div>
+</div>
   </main>
-  <footer class="footer">
-    <ul>
-        <li><a href="index.html">Ana sayfa</a></li>
-        <li><a href="urunler.html">Ürünlerimiz</a></li>
-        <li><a href="hakkımızda.html">Hakkımızda</a></li>
-        <li><a href="iletisim.html">İletişim</a></li>
+
+  <footer class="footer text-center mt-5">
+    <ul class="nav justify-content-center pt-3">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="index.html">Ana Sayfa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="urunler.html">Ürünlerimiz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="hakkımızda.html">Hakkımızda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="iletisim.html" tabindex="-1">İletişim</a>
+      </li>
     </ul>
-    <address>
+    <address class="mt-5">
         <strong>Addres :</strong>Lorem ipsum dolor sit amet. <br>
         İstanbul / TÜRKİYE <br>
-        <strong>Tel :</strong> <a href="Tel:02121112211">02121112211</a><br>
-        <strong>e-mail :</strong> <a href="mailto:info@info.com">info@info.com</a>
+        <strong>Tel :</strong> <a class="text-dark" href="Tel:02121112211">02121112211</a><br>
+        <strong>e-mail :</strong> <a class="text-dark" href="mailto:info@info.com">info@info.com</a>
      </address>
      <div>© Copyright 2021</div>
   </footer>
 
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
