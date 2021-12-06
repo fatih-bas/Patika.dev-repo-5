@@ -1,2 +1,2 @@
 # kodluyoruzbesincirepo
-CSS - Ödev 1
+CSS - Bootstrap
